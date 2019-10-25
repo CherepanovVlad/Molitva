@@ -86,3 +86,27 @@ h2 {
   width: 1461px;
   height: 650px;
 }
+.молитвы {
+  height: 85vh;
+  background-color: black;
+}
+.молитвы ul {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+.молитвы ul li img {
+  width: 220px;
+  margin: 100px;
+  transition: transform 300ms ease;
+}
+.молитвы ul li img:hover {
+  cursor: pointer;
+  transform: scale(1.0.5);
+}
+.next1 {
+  text-align: left;
+  background-color: #A10202;
+  display: inline-block;
+  width: 1461px;
+  height: 650px;
